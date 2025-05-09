@@ -16,6 +16,13 @@ body {
       opacity:0.7;
     }
 
+.aboba{
+    display: block;
+    margin-top: 0px;
+    text-decoration:none;
+    border:2px solid black;
+}
+
     footer {
       background: rgba(25, 10, 60, 0.8);
       text-align: center;
