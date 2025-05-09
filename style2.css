@@ -1,0 +1,101 @@
+body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      color:#000000;
+      font-size:30px;
+    }
+    .overlay {
+      background: rgba(30, 0, 60, 0.75);
+      padding: 50px 20px;
+      min-height: 100vh;
+      background-image: url("https://learn.logikaschool.com/uploads/student/4784915/68178c7c2909d.jpg");
+       background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      text-align:center;
+      opacity:0.7;
+    }
+
+    footer {
+      background: rgba(25, 10, 60, 0.8);
+      text-align: center;
+      padding: 20px;
+      border-top: 3px solid #dabaff;
+      color: white;
+      text-decoration: none;
+      font-size:20px;
+    }
+
+    nav {
+      background: rgba(45, 25, 90, 0.8);
+      padding: 20px;
+      text-align: center;
+      font-size:15px;
+      border-radius:12px;
+    }
+
+    nav a {
+      color: #ffe8ff;
+      margin: 0 25px;
+      font-size: 1.4em;
+      text-decoration: none;
+      transition: all 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffff99;
+      text-shadow: 0 0 5px #fff;
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 40px;
+      color: #cba8ff;
+      text-shadow: 0 0 10px #8c52ff;
+    }
+    p {
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+    p::first-letter {
+      font-size: 60px; 
+      color: blue;
+      font-family: cursive, Georgia;
+    }
+
+    .prince{
+       background: rgba(30, 0, 60, 0.75);
+      padding: 50px 20px;
+      min-height: 100vh;
+      background-image: url("https://learn.logikaschool.com/uploads/student/4784915/681df1b1305ce.jpg");
+       background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      text-align:center;
+      opacity:0.7;
+      
+      
+    }
+
+    .dragon{
+       background: rgba(30, 0, 60, 0.75);
+      padding: 50px 20px;
+      min-height: 100vh;
+      background-image: url("https://learn.logikaschool.com/uploads/student/4784915/68178bed0a919.jpg");
+       background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      text-align:center;
+      opacity:0.7;}
+
+      .mech{
+       background: rgba(30, 0, 60, 0.75);
+      padding: 50px 20px;
+      min-height: 100vh;
+      background-image: url("https://learn.logikaschool.com/uploads/student/4784915/681789a949df3.jpg");
+       background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      text-align:center;
+      opacity:0.7;}
