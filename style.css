@@ -54,6 +54,13 @@ body {
       margin-bottom: 60px;
     }
 
+.aboba{
+    display: block;
+    margin-top: 0px;
+    text-decoration:none;
+    border:2px solid black;
+}
+
     .button:hover{
       background: #4a00e0;
       border: 2px solid white;
