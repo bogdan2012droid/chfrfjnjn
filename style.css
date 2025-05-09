@@ -1,0 +1,142 @@
+body {
+      margin: 0;
+      font-family: 'Uncial Antiqua', cursive;
+      background: url('https://images.unsplash.com/photo-1511497584788-876760111969') no-repeat center center fixed;
+      background-size: cover;
+      color: #fef6f0;
+     
+    }
+
+    header {
+      background: rgba(25, 10, 60, 0.85);
+      text-align: center;
+      padding: 60px 20px;
+      border-bottom: 4px solid #dabaff;
+    }
+
+    header h1 {
+      font-size: 4.5em;
+      color: hsl(304, 100%, 95%);
+      text-shadow: 0 0 20px #d3aaff;
+      animation: pulse 3s infinite alternate;
+    }
+
+    @keyframes pulse {
+      0% { text-shadow: 0 0 10px #bb99ff; }
+      100% { text-shadow: 0 0 30px #ffccff; }
+    }
+
+    nav {
+      background: rgba(45, 25, 90, 0.8);
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #ffe8ff;
+      margin: 0 25px;
+      font-size: 1.4em;
+      text-decoration: none;
+      transition: all 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffff99;
+      text-shadow: 0 0 5px #fff;
+    }
+
+    main {
+      padding: 50px;
+      background: rgba(15, 5, 30, 0.85);
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    .button:hover{
+      background: #4a00e0;
+      border: 2px solid white;
+      color: #ffff99;
+      transform: skew(10deg);
+     
+    }
+
+    h2 {
+      font-size: 2.7em;
+      color: #ffd6ff;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.8em;
+      text-align: center;
+      max-width: 900px;
+      margin: auto;
+    }
+
+   {
+      color: white;
+      text-decoration: none;
+      float: left;
+    }
+
+    
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .gallery img {
+      width: 300px;
+      height:300px;
+      border: 3px solid #a88eff;
+      border-radius: 10px;
+      transition: transform 0.4s;
+      box-shadow: 0 0 20px #bfaaff;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+
+    .button {
+      display: inline-block;
+      padding: 15px 30px;
+      margin-top: 30px;
+      font-size: 1.3em;
+      color: #fff;
+      background: linear-gradient(to right, #8e2de2, #4a00e0);
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    
+
+    .button:hover {
+      background: linear-gradient(to right, #b993d6, #8ca6db);
+    }
+    
+
+    footer {
+      background: rgba(25, 10, 60, 0.8);
+      text-align: center;
+      padding: 20px;
+      border-top: 3px solid #dabaff;
+      color: white;
+      text-decoration: none;
+    }
+
+    @media (max-width: 700px) {
+      header h1 { font-size: 2.8em; }
+      nav a { display: block; margin: 10px 0; }
+      .gallery img { width: 90%; }
+    }
+ 
