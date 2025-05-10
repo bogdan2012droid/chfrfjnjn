@@ -16,12 +16,12 @@ body {
       opacity:0.7;
     }
 
-.bobr{
-      text-decoration: none;
-      color: white;
-      padding: 10px 20px;
-      text-decoration: none; 
-      border-radius: 5px;
+.bobr {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 12px; /* Менший розмір тексту */
 }
 
 
@@ -37,14 +37,7 @@ footer {
       font-size:14px;
     }
 
-.aboba{
-    display: block;
-    margin-top: 0px;
-    text-decoration:none;
-    
-    color:#ee82ee;
-   
-}
+
 
     nav {
       background: rgba(45, 25, 90, 0.8);
