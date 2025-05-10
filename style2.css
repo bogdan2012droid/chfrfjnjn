@@ -24,29 +24,27 @@ body {
       border-radius: 5px;
 }
 
+
+
+
+
+footer {
+      background: rgba(25, 10, 60, 0.8);
+      text-align: center;
+      padding: 20px;
+      border-top: 3px solid #dabaff;
+      text-decoration: none;
+      
+    }
+
 .aboba{
     display: block;
     margin-top: 0px;
     text-decoration:none;
+    
     color:#ee82ee;
+   
 }
-
-
-
-    footer {
-      
-      text-align: center;
-      
-      
-      
-      text-decoration: none;
-      font-size:20px;
-          color: #ee82ee;
-      color: white;
-      padding: 10px 20px;
-     ; 
-      border-radius: 5px;
-    }
 
     nav {
       background: rgba(45, 25, 90, 0.8);
