@@ -16,6 +16,10 @@ body {
       opacity:0.7;
     }
 
+a{
+  color:#ee82ee;    
+}
+
 .aboba{
     display: block;
     margin-top: 0px;
